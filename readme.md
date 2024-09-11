@@ -26,13 +26,14 @@ This project is a web application built using Next.js for the frontend and Djang
 
 ### 2. Backend Setup
 
-Navigate into the backend directory and set up the Python environment.
+- Navigate into the backend directory and set up the Python environment.
 
 ```bash
 cd path/to/unzipped/folder/chart_backend  # Adjust the path as necessary
 pip install -r requirements.txt            # Install required Python packages
 python manage.py migrate                   # Run database migrations
 python manage.py runserver 8000            # Start the Django server on port 8000
+```
 
 ### 3. Frontend Setup
 
@@ -42,6 +43,7 @@ Open a new terminal window or tab and set up the frontend.
 cd path/to/unzipped/folder/dashboard   # Navigate to the frontend directory
 npm install                            # Install Node.js dependencies
 npm run dev                            # Start the Next.js development server
+```
 
 ## Accessing the Application
 
@@ -75,12 +77,13 @@ npm run dev                            # Start the Next.js development server
 - To change the Django backend port from the default `8000` to a different port:
   
   ```bash
-  python manage.py runserver <new-port>  # Replace <new-port> with the desired port
-
+  python manage.py runserver <new-port>  
+  ```
 For example, to run the Django server on port `8080`, use:
 
 ```bash
 python manage.py runserver 8080
+```
 
 ### Changing the Frontend Port (Next.js)
 
@@ -88,6 +91,6 @@ python manage.py runserver 8080
 
 ```bash
 npm run dev -- -p <3000>  
-
+```
 
 Thank you for the opportunity to work on this project.
