@@ -93,4 +93,6 @@ python manage.py runserver 8080
 npm run dev -- -p <3000>  
 ```
 
+##Refresh the page to get rid of any sync errors.
+
 Thank you for the opportunity to work on this project.
